@@ -1,3 +1,4 @@
+# 背景オレンジのタスクス
 Rails.application.routes.draw do
   resources :tasks
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -8,4 +9,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  #　ここから編集
+  # トップページに移動する指示
+  root "tops#index"
 end
+
