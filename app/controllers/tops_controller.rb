@@ -1,5 +1,4 @@
 class TopsController < ApplicationController
-    # トップページに繋げる
-    def index
-    end
+  # トップページに繋げる
+  def index; end
 end
