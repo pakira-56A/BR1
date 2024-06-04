@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html data-theme="light">
+<html>
   <head>
-    <title>Myapp</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+    <title>BR1</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <%= csrf_meta_tags %> <%= csp_meta_tag %> <%= stylesheet_link_tag
+    "application" %> <%= javascript_include_tag "application",
+    "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <!-- daisyuiのclassを追加(デザインが当たっているかの検証です) -->
-  <body class="bg-orange-600">
+  <body>
+    <!--  -->
+    <%= render 'shared/header' %>
+    <%= yield %>
+    <!--  -->
+    <%= render 'shared/footer' %>
     <%= yield %>
   </body>
 </html>
