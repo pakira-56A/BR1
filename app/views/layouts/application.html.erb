@@ -9,11 +9,10 @@
   </head>
 
   <body>
-    <!--  -->
+    <%# ヘッダーを表示、全ページで共通のレイアウトを定義 %>
     <%= render 'shared/header' %>
     <%= yield %>
-    <!--  -->
+    <%# フッターを表示、全ページで共通のレイアウトを定義 %>
     <%= render 'shared/footer' %>
-    <%= yield %>
   </body>
 </html>
