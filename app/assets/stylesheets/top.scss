@@ -1,19 +1,21 @@
 // 課題2：トップページ専用のスタイル、レイアウトとデザインを定義
-.top-wrapper {
-    background-image: url('カードアイコン.png');
-    height: calc(100vh - 134px);
-    position: relative;
-    background-position: center;
+
+// 6/6 15:00　一旦コメントアウト
+// .top-wrapper {
+    // background-image: url('カードアイコン.png');
+    // height: calc(100vh - 134px);
+    // position: relative;
+    // background-position: center;
   
-    .top-inner-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      text-align: center;
-      font-size: 3rem;
-      color: white;
+    // .top-inner-text {
+      // position: absolute;
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
+      // width: 100%;
+      // text-align: center;
+      // font-size: 3rem;
+      // color: white;
   
-      @media screen and (max-width: 767px) {
-        font-size: 2rem;}}}
+      // @media screen and (max-width: 767px) {
+        // font-size: 2rem;}}}
